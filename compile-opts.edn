@@ -1,0 +1,4 @@
+{:output-to "out/core.js"
+ :target :nodejs
+ :optimizations :simple
+ :source-map "out/core.js.map"}
