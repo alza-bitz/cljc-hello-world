@@ -1,2 +1,3 @@
 {:main hello-world.core
+ :asset-path "target/node/dev"
  :target :nodejs}
