@@ -1,6 +1,6 @@
 {:paths ["src"]
  :deps
- {org.clojure/clojure {:mvn/version "1.11.0-master-SNAPSHOT"}
+ {org.clojure/clojure {:mvn/version "1.10.2-alpha1"}
   org.clojure/clojurescript {:mvn/version "1.10.520"}}
  :aliases {:dev {:extra-deps {org.clojure/tools.namespace {:mvn/version "0.3.1"}}}
            :compile-cljs {:main-opts ["-m" "cljs.main" "-co" "compile-opts.edn" "-c" "hello-world.core"]}
